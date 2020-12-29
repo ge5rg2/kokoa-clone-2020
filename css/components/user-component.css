@@ -23,6 +23,7 @@
   margin-top: 8px;
   font-size: 17px;
   color: var(--gray);
+  position: relative;
 }
 .user-component__avatar--xl {
   width: 80px;
@@ -47,4 +48,18 @@
 .user-component__time {
   margin-bottom: 10px;
   display: block;
+}
+
+.user-component__subtitle-exclamation {
+  position: absolute;
+  border: 2px solid tomato;
+  height: 12px;
+  width: 12px;
+  font-size: 11px;
+  font-weight: 600;
+  color: tomato;
+  border-radius: 50%;
+  text-align: center;
+  margin-top: 2px;
+  margin-left: 4px;
 }

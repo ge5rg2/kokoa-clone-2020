@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge goals</title>
+</head>
+<body>
+    <h1>Create An Account</h1>
+    <form>
+    <div>
+        <label for="F-name">First name 
+            <input type="text" placeholder="First name" id="F-name" required>
+        </label>
+    </div>
+    <div>
+        <label for="L-name">Last name
+            <input type="text" placeholder="Last name" id="L-name" required>
+        </label>
+    </div>
+    <div>
+        <label for="mail">Email
+            <input type="email" placeholder="Email" id="mail" required>
+        </label>
+    </div>
+    <div>
+        <label for="username">Username 
+            <input type="text" placeholder="Username" id="username" required>
+        </label>
+    </div>
+    <div>
+        <label for="pw">Password
+            <input type="password" placeholder="Password" id="pw" required minlength="10">
+        </label>
+    </div>
+    <div>
+        <label for="bd">Birth date 
+            <input type="date" id="bd" required>
+        </label>
+    </div>
+    <div>
+        <label for="range">How happy are you? 
+            <input type="range" min="0" max="10" id="range" list="range-num" required>
+            <datalist id="range-num">
+                <option value="0"></option>
+                <option value="1"></option>
+                <option value="2"></option>
+                <option value="3"></option>
+                <option value="4"></option>
+                <option value="5"></option>
+                <option value="6"></option>
+                <option value="7"></option>
+                <option value="8"></option>
+                <option value="9"></option>
+                <option value="10"></option>
+            </datalist>
+    </div>
+    <div>
+        <label for="colorbox">What is your fav. color?
+            <input type="color" required id="colorbox">
+        </label>
+    </div>
+    <div>
+        <input type="submit" value="Create Account" required>
+    </div>
+</form>
+</body>
+</html>

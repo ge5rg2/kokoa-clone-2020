@@ -1,0 +1,35 @@
+body {
+  background-color: tomato;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-box {
+  height: 200px;
+  width: 200px;
+  background-color: wheat;
+  display: flex;
+  border: solid;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-box {
+  background-color: cornflowerblue;
+  height: 50px;
+  width: 50px;
+  margin: 10px 0px;
+  border: solid white;
+}
+
+.sub-box__other {
+  background-color: cornflowerblue;
+  height: 50px;
+  width: 170px;
+  margin: 5px 0px;
+  border: dashed white;
+}

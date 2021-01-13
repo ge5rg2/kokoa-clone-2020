@@ -1,0 +1,35 @@
+.sub-music {
+  display: flex;
+  margin: 20px 0px;
+}
+
+.sub-music__calumn-img {
+  height: 80px;
+  width: 80px;
+  border-radius: 15%;
+  border: 3px solid white;
+  display: flex;
+  font-size: 30px;
+}
+
+.sub-music__calumn-img img {
+  height: 80px;
+  width: 80px;
+  border-radius: 15%;
+}
+
+.sub-music__calumn {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.sub-music__calumn span:first-child {
+  font-weight: 600;
+  font-size: 27px;
+}
+
+.sub-music__calumn span:last-child {
+  padding-top: 10px;
+  font-size: 13px;
+}

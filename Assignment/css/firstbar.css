@@ -1,0 +1,21 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 25px;
+}
+
+.first-bar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 35px;
+  margin: 20px 0px 40px 0px;
+}
+
+.first-bar__calumn:first-child span {
+  padding-left: 20px;
+}
+
+.first-bar__calumn:nth-child(2) i {
+  padding-left: 20px;
+}

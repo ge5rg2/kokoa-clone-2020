@@ -1,0 +1,33 @@
+.main-music {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.main-music__calumn:first-child div {
+  height: 140px;
+  width: 140px;
+  background-color: #ffbd11;
+  border-radius: 15%;
+  border: 3px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.main-music__calumn:last-child {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+}
+
+.main-music__calumn span:first-child {
+  font-weight: 600;
+  font-size: 43px;
+}
+
+.main-music__calumn span:last-child {
+  padding-top: 10px;
+  font-size: 20px;
+}

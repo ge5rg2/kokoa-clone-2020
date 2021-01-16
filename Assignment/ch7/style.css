@@ -297,13 +297,15 @@ body {
   position: relative;
   display: flex;
   background-color: rgb(218, 216, 216);
-  width: 220px;
+  width: 210px;
   height: 4px;
 }
 
 .play-range-bar2 {
+  position: relative;
+  left: -10px;
   display: flex;
-  width: 130px;
+  width: 140px;
   background-color: black;
   height: 4px;
 }
